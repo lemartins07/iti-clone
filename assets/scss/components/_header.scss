@@ -1,0 +1,66 @@
+/*=============== HEADER ===============*/
+.header {
+  width: 100%;
+  background-color: var(--body-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  padding: var(--mb-1);
+
+  a {
+    font-weight: var(--font-semi-bold);
+    color: var(--text-color);
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .nav-mobile {
+    background-color: var(--body-color);
+
+    &__menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+    }
+
+    &__logo {
+      max-width: 40px;
+      display: flex;
+    }
+
+    &__list {
+      position: absolute;
+      top: -300%;
+      height: 0;
+      width: 100%;
+      background-color: var(--body-second-color);
+      padding: 0 var(--mb-1);
+      z-index: -1;
+      transition: 0.3s;
+    }
+
+    &__list.is-active {
+      top: calc(var(--header-height) - var(--mb-1));
+      height: calc(100vh - var(--header-height));
+    }
+
+    &__item {
+      padding: var(--mb-0-75) 0 0 var(--mb-1);
+    }
+
+    &__toggle {
+      font-size: var(--h2-font-size);
+      cursor: pointer;
+    }
+  }
+}
+
+/*=============== NAV ===============*/
+
+/* Show menu */
+
+/* Change background header */

@@ -1,0 +1,12 @@
+/*=============== HOME ===============*/
+.home {
+  margin-bottom: 1000px;
+  padding: 150px 0;
+  min-height: 650px;
+  background: url("https://iti.itau/content/dam/iti/home/webp/webp_desk_home_hero.webp")
+    no-repeat center;
+  grid-template-columns: 2fr 1fr;
+
+  .home__title {
+  }
+}
