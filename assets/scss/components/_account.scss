@@ -1,0 +1,15 @@
+/*=============== ACCOUNT ===============*/
+.account {
+  text-align: center;
+  padding-top: 15px;
+
+  &__img {
+    grid-row: 2;
+  }
+
+  &__title {
+    font-size: var(--big-font-size);
+    line-height: 1.1;
+    letter-spacing: 0;
+  }
+}
