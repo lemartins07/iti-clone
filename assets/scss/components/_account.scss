@@ -2,6 +2,7 @@
 .account {
   text-align: center;
   padding-top: 15px;
+  row-gap: var(--mb-0-75);
 
   &__img {
     grid-row: 2;
@@ -11,5 +12,12 @@
     font-size: var(--big-font-size);
     line-height: 1.1;
     letter-spacing: 0;
+  }
+
+  &__description {
+    letter-spacing: 0px;
+    line-height: 1.2;
+    font-size: var(--small-font-size);
+    padding-bottom: var(--mb-1-5);
   }
 }
