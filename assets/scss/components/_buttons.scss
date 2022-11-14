@@ -1,6 +1,7 @@
 /*=============== BUTTONS ===============*/
 .button {
   width: 100%;
+  min-width: 300px;
   color: var(--title-color-alt);
   background-color: var(--first-color);
   text-align: center;

@@ -1,7 +1,6 @@
-/*=============== ACCOUNT ===============*/
-.account {
-  text-align: center;
-  padding-top: var(--mb-1-5);
+/*=============== MACHINE ===============*/
+.machine {
+  padding-top: var(--mb-2-5);
   row-gap: 0;
   justify-items: center;
 
@@ -14,6 +13,7 @@
     line-height: 1.1;
     letter-spacing: 0;
     margin-bottom: var(--mb-1);
+    text-align: center;
   }
 
   &__description {
@@ -21,9 +21,11 @@
     line-height: 1.2;
     font-size: var(--small-font-size);
     padding-bottom: var(--mb-1-5);
+    text-align: center;
   }
 
   &__wrapper-button {
     max-width: 300px;
+    align-self: center;
   }
 }
