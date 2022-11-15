@@ -1,0 +1,33 @@
+/*=============== BENEFITS ===============*/
+.benefits {
+  padding-top: var(--mb-2-5);
+  row-gap: 0;
+  justify-items: center;
+  background-image: linear-gradient(333deg, #f8f8f8, #f8f8f8);
+
+  &__img {
+    grid-row: 2;
+    margin-bottom: var(--mb-1-5);
+  }
+
+  &__title {
+    font-size: var(--big-font-size);
+    line-height: 1.1;
+    letter-spacing: -1px;
+    margin-bottom: var(--mb-1);
+    text-align: center;
+  }
+
+  &__description {
+    letter-spacing: 0px;
+    line-height: 1.2;
+    font-size: var(--small-font-size);
+    padding-bottom: var(--mb-1-5);
+    text-align: center;
+  }
+
+  &__wrapper-button {
+    max-width: 300px;
+    margin-bottom: var(--mb-1-5);
+  }
+}
