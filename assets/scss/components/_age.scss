@@ -1,5 +1,5 @@
-/*=============== MACHINE ===============*/
-.machine {
+/*=============== AGE ===============*/
+.age {
   padding-top: var(--mb-2-5);
   row-gap: 0;
   justify-items: center;
@@ -11,13 +11,13 @@
   &__title {
     font-size: var(--big-font-size);
     line-height: 1.1;
-    letter-spacing: -1px;
+    letter-spacing: 0;
     margin-bottom: var(--mb-1);
     text-align: center;
   }
 
   &__description {
-    letter-spacing: 0px;
+    letter-spacing: -1px;
     line-height: 1.2;
     font-size: var(--small-font-size);
     padding-bottom: var(--mb-1-5);
